@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>InfraUX</title>
+
+<!-- Leaflet CSS -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="container">
+
+  <div id="map-wrapper">
+    <div id="map"></div>
+  </div>
+
+  <div id="controls">
+    <h3>Infrastructure Layers</h3>
+    <input type="text" id="searchBox" placeholder="Buscar (e.g. 7SD-G1)" style="width: 100%; padding: 6px; margin-bottom: 10px;">
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+<script src="map.js"></script>
+
+</body>
+</html>
+
+<!-- "11SD-D2": {"y": 2136685.32,	"x": 2136685.32},     
+ "17SD-C2": {"y": 2136986.444,	"x": 2136986.444},-->
